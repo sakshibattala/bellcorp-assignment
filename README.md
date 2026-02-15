@@ -3,7 +3,9 @@
 Bellcorp is a full-stack event management application that allows users to browse events, register for events, and manage their registrations. The project is divided into two main parts:
 
 1. **Client**: The frontend application built using **React**, **Vite**, and **TailwindCSS**.
+   - **Live URL**: [Bellcorp Client](https://bellcorp-assignment-six.vercel.app/login)
 2. **Server**: The backend server built using **Node.js**, **Express.js**, and **MongoDB**.
+   - **Live URL**: [Bellcorp Server](https://bellcorp-assignment.onrender.com/)
 
 ---
 
@@ -91,21 +93,25 @@ Make sure you have the following installed on your system:
 ### Client Setup
 
 1. Navigate to the `client` directory:
+
    ```bash
    cd client
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file in the `client` directory and add the following environment variable:
+
    ```env
    VITE_BASE_URL=http://localhost:3000
    ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -117,16 +123,19 @@ Make sure you have the following installed on your system:
 ### Server Setup
 
 1. Navigate to the `server` directory:
+
    ```bash
    cd server
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file in the `server` directory and add the following environment variables:
+
    ```env
    PORT=3000
    MONGODB_URI=<your_mongodb_connection_string>
@@ -134,6 +143,7 @@ Make sure you have the following installed on your system:
    ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
