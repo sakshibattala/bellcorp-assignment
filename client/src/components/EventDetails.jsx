@@ -31,6 +31,7 @@ const EventDetails = ({ event, onClose }) => {
         error.message ||
         "Something went wrong";
       toast.error(message);
+      navigate("/login");
     }
   };
 
